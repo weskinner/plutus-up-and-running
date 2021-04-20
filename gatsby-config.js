@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Finity Gatsby`,
+    title: `Plutus Up and Running`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

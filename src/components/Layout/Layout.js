@@ -92,7 +92,7 @@ const Layout = ({ children, pageContext }) => {
     return (
       <>
         <Helmet>
-          <title>Finity</title>
+          <title>Plutus Up and Running</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
           <body data-theme={gContext.theme.bodyDark ? "dark" : "light"} />
         </Helmet>
@@ -111,7 +111,7 @@ const Layout = ({ children, pageContext }) => {
     return (
       <>
         <Helmet>
-          <title>Finity</title>
+          <title>Plutus Up and Running</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
           <body data-theme={gContext.theme.bodyDark ? "dark" : "light"} />
         </Helmet>
@@ -131,13 +131,12 @@ const Layout = ({ children, pageContext }) => {
     <>
       <>
         <Helmet>
-          <title>Finity</title>
+          <title>Plutus Up and Running</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
           <body data-theme={gContext.theme.bodyDark ? "dark" : "light"} />
         </Helmet>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"} />
         <div className="site-wrapper overflow-hidden" ref={eleRef}>
-          <Header />
           {children}
           <Footer
             className={gContext.theme.footerClassName}
